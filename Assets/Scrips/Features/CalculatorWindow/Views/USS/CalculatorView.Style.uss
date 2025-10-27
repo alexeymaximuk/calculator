@@ -1,0 +1,25 @@
+.unity-base-slider {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+.unity-base-slider__tracker {
+    width: 6px;
+    background-color: rgb(200, 200, 200);
+    margin-left: 4px;
+}
+
+.unity-scroller--vertical > .unity-scroller__high-button {
+    display: none;
+}
+
+.unity-scroller--vertical > .unity-scroller__low-button {
+    display: none;
+}
+
+.unity-base-slider__dragger {
+    width: 8px;
+    background-color: rgb(0, 181, 255);
+    align-self: center;
+}

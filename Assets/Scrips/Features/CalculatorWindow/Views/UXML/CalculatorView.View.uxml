@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns="UnityEngine.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scrips/Features/CalculatorWindow/Views/USS/CalculatorView.Style.uss?fileID=7433441132597879392&amp;guid=1b8ba1e73fa24d87bb91e0dd0226d2e5&amp;type=3#CalculatorView.Style" />
+    <ui:VisualElement styleSheets="../USS/CalculatorView.Style.uss" style="flex-grow: 1; flex-direction: column; width: 100%; height: 100%; align-items: center; justify-content: center; padding-right: 90px; padding-left: 90px; padding-top: 180px; padding-bottom: 180px;">
+        <ui:VisualElement style="width: 100%; height: auto; flex-direction: column; align-self: center; flex-grow: 0; flex-shrink: 1; position: relative; background-color: rgb(255, 255, 255);">
+            <ui:Label text="CALCULATOR PRO (R)" style="unity-font-style: bold; font-size: 10px; margin-bottom: 10px; align-self: center; -unity-font-style: bold;" />
+            <ui:TextField name="equationInput" placeholder-text="Enter an equation..." style="margin-left: 30px; margin-right: 30px; margin-bottom: 10px;" />
+            <ui:ScrollView name="operationsScroll" class="custom-scroll" style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-bottom: 10px; margin-top: 0; align-items: flex-start; width: 90%; align-self: center;" />
+            <ui:Button name="resultButton" text="RESULT" style="margin-left: 30px; margin-right: 30px; margin-bottom: 30px; height: 40px; margin-top: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(0, 181, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
